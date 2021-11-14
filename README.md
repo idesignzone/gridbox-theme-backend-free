@@ -21,7 +21,7 @@ After you have installed Wordpress, search for Gridbox in Wordpress theme direct
 3. Fork Gridbox [front-end repository](https://github.com/idesignzone/gridbox-theme-frontend-free) to your github account. 
 4. Create a Netlify account and setup to deploy your new repository.
 5. In Netlify go to `Build & Deploy -> Environment variables` and add `WORDPRESS_URL` and add your Wordpress backend URL here.
-6. Now you can deploy your repository to Netlify. 
+6. Now you can deploy your repository to Netlify to get the website URL of your front-end.
 7. Finally go to Wordpress admin `Settings -> Site Address (URL)` and change it to your Front-end website URL that you just deployed on Netlify. (You need to deploy you front-end again for this to take place)
 
 ### Setup Locally
@@ -30,7 +30,7 @@ To setup Gridbox in your local development environment, create a file called `en
 `WORDPRESS_URL=http://wordpress_url` and run `gridsome develop`. Note that if you have installed wordpress locally under a subfolder like `http://localhost/wordpress` you will get error while compiling the application. Wordpress URL needs to be an absolute domain like `http://my_wordpress.com`
 
 
-### Deployment Setup
+### Hook URL
 
 Everytime you edit your content in Wordpress admin, you will need to deploy the front-end for changes to take place. To avoid going to Netlify admin everytime you edit your Wordpress content, go to `appearance -> customize -> Netlify Deployment` and enter your Netlify API ID and Web Hook URL. Now you can find Netlify deployment Widget in the dashboard of Wordpress admin and simply click on Deploy to netlify button everytime you edit content of your website.
 
