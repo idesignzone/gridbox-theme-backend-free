@@ -27,7 +27,7 @@
     <div class="footer-bottom">
         <div class="uk-container uk-container-large">
             <div class="inner">
-                <div class="uk-flex uk-flex-between copyright">
+                <div class="uk-flex uk-flex-center copyright">
                     <p><?php echo comicpress_copyright(); ?></p>
                 </div>
             </div>

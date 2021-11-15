@@ -20,7 +20,7 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div class="<?php echo $container_width; ?>">
+<div class="uk-container uk-container-medium">
     <div class="uk-flex-center uk-grid-medium" uk-grid>
         <div class="uk-width-2-3@m">
             <div class="uk-width-1-1">
@@ -81,7 +81,7 @@ if ( post_password_required() ) {
                 </div>
             </div>
         </div>
-        <div class="uk-width-1-3@m <?php echo $post_template; ?>"></div>
+        <div class="uk-width-1-3@m"></div>
     </div>
 </div>
 

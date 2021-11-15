@@ -12,7 +12,7 @@ Gridbox Wordpress Theme requires the following:
 
 - [Wordpress](https://wordpress.org/download/)
 
-### Quick Start
+### Quick Start (live environment)
 
 After you have installed Wordpress, search for Gridbox in Wordpress theme directory `appearance -> themes` or download the repository zip file and extract it inside `/wp-content/themes` directory.
 
